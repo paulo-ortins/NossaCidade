@@ -1,3 +1,13 @@
 <Modules>
-  <Module PersistentId="B32D9664-DDDD-43BB-B6BE-6A2A144486F2" ModuleId="NossaCidade.ApplicationServices" />
+  <Module PersistentId="EB629624-0E9C-4CDC-BE7E-F4059EFAD4A8" ModuleId="NossaCidade.ApplicationServices" />
+  <Module PersistentId="1F9203DF-21D9-4799-BEEA-01BCFDD0012D" ModuleId="NossaCidade.ApplicationServices.Tests" />
+  <Module PersistentId="190B74EB-DF86-4709-BB9C-00FBEC4DECBA" ModuleId="NossaCidade.CrossCutting" />
+  <Module PersistentId="7C2814B3-4660-4218-8FB6-BF94BB6336A1" ModuleId="NossaCidade.CrossCutting.Tests" />
+  <Module PersistentId="C4905958-D080-432A-AA0E-EDE383FD10D6" ModuleId="NossaCidade.Domain" />
+  <Module PersistentId="BD8535DA-5A21-44D3-B024-10CE72726E66" ModuleId="NossaCidade.Domain.Tests" />
+  <Module PersistentId="561BF657-ABDA-4085-BB2A-379BC87B2168" ModuleId="NossaCidade.Repository" />
+  <Module PersistentId="6C0CDF87-289D-4F7B-962C-E528F3092A9F" ModuleId="NossaCidade.Repository_1" />
+  <Module PersistentId="27DB008F-F908-4D9B-8BFB-9B20CC4EC398" ModuleId="NossaCidade.RepositoryTests" />
+  <Module PersistentId="2DAEAEC9-E56F-42D1-8235-065A0434541D" ModuleId="NossaCidade.Web" />
+  <Module PersistentId="A274396E-45A0-4DF3-A533-4B4A728A703D" ModuleId="NossaCidade.Web.Tests" />
 </Modules>

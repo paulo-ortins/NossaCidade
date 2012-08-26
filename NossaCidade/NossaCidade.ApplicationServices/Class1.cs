@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ApplicationServices
+namespace NossaCidade.ApplicationServices
 {
     public class Class1
     {
-         tete
     }
 }
