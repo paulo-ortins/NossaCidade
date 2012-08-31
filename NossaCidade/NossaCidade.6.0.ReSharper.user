@@ -1,0 +1,42 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1F9203DF-21D9-4799-BEEA-01BCFDD0012D/f:UnitTest1.cs" caret="0" fromTop="0" />
+      <File id="EB629624-0E9C-4CDC-BE7E-F4059EFAD4A8/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="190B74EB-DF86-4709-BB9C-00FBEC4DECBA/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="7C2814B3-4660-4218-8FB6-BF94BB6336A1/f:UnitTest1.cs" caret="0" fromTop="0" />
+      <File id="C4905958-D080-432A-AA0E-EDE383FD10D6/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="BD8535DA-5A21-44D3-B024-10CE72726E66/f:UnitTest1.cs" caret="0" fromTop="0" />
+      <File id="6C0CDF87-289D-4F7B-962C-E528F3092A9F/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="27DB008F-F908-4D9B-8BFB-9B20CC4EC398/f:UnitTest1.cs" caret="0" fromTop="0" />
+      <File id="2DAEAEC9-E56F-42D1-8235-065A0434541D/d:Controllers/f:ValuesController.cs" caret="0" fromTop="0" />
+      <File id="A274396E-45A0-4DF3-A533-4B4A728A703D/f:UnitTest1.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="EB629624-0E9C-4CDC-BE7E-F4059EFAD4A8/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="190B74EB-DF86-4709-BB9C-00FBEC4DECBA/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="C4905958-D080-432A-AA0E-EDE383FD10D6/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="BD8535DA-5A21-44D3-B024-10CE72726E66/f:UnitTest1.cs" caret="0" fromTop="0" />
+      <File id="6C0CDF87-289D-4F7B-962C-E528F3092A9F/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="27DB008F-F908-4D9B-8BFB-9B20CC4EC398/f:UnitTest1.cs" caret="0" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

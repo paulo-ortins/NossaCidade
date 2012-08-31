@@ -1,7 +1,83 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NossaCidade.ApplicationServices", "NossaCidade.ApplicationServices\NossaCidade.ApplicationServices.csproj", "{EB629624-0E9C-4CDC-BE7E-F4059EFAD4A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NossaCidade.ApplicationServices.Tests", "NossaCidade.ApplicationServices.Tests\NossaCidade.ApplicationServices.Tests.csproj", "{1F9203DF-21D9-4799-BEEA-01BCFDD0012D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0A8DFFAB-1C77-4A55-B71A-60A0E310BC75}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		NossaCidade.vsmdi = NossaCidade.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NossaCidade.CrossCutting", "NossaCidade.CrossCutting\NossaCidade.CrossCutting.csproj", "{190B74EB-DF86-4709-BB9C-00FBEC4DECBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NossaCidade.CrossCutting.Tests", "NossaCidade.CrossCutting.Tests\NossaCidade.CrossCutting.Tests.csproj", "{7C2814B3-4660-4218-8FB6-BF94BB6336A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NossaCidade.Domain", "NossaCidade.Domain\NossaCidade.Domain.csproj", "{C4905958-D080-432A-AA0E-EDE383FD10D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NossaCidade.Domain.Tests", "NossaCidade.Domain.Tests\NossaCidade.Domain.Tests.csproj", "{BD8535DA-5A21-44D3-B024-10CE72726E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NossaCidade.Repository", "NossaCidade.Repository\NossaCidade.Repository.csproj", "{6C0CDF87-289D-4F7B-962C-E528F3092A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NossaCidade.RepositoryTests", "NossaCidade.RepositoryTests\NossaCidade.RepositoryTests.csproj", "{27DB008F-F908-4D9B-8BFB-9B20CC4EC398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NossaCidade.Web", "NossaCidade.Web\NossaCidade.Web.csproj", "{2DAEAEC9-E56F-42D1-8235-065A0434541D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NossaCidade.Web.Tests", "NossaCidade.Web.Tests\NossaCidade.Web.Tests.csproj", "{A274396E-45A0-4DF3-A533-4B4A728A703D}"
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = NossaCidade.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB629624-0E9C-4CDC-BE7E-F4059EFAD4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB629624-0E9C-4CDC-BE7E-F4059EFAD4A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB629624-0E9C-4CDC-BE7E-F4059EFAD4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB629624-0E9C-4CDC-BE7E-F4059EFAD4A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F9203DF-21D9-4799-BEEA-01BCFDD0012D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F9203DF-21D9-4799-BEEA-01BCFDD0012D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F9203DF-21D9-4799-BEEA-01BCFDD0012D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F9203DF-21D9-4799-BEEA-01BCFDD0012D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190B74EB-DF86-4709-BB9C-00FBEC4DECBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190B74EB-DF86-4709-BB9C-00FBEC4DECBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190B74EB-DF86-4709-BB9C-00FBEC4DECBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190B74EB-DF86-4709-BB9C-00FBEC4DECBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2814B3-4660-4218-8FB6-BF94BB6336A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2814B3-4660-4218-8FB6-BF94BB6336A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2814B3-4660-4218-8FB6-BF94BB6336A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2814B3-4660-4218-8FB6-BF94BB6336A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4905958-D080-432A-AA0E-EDE383FD10D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4905958-D080-432A-AA0E-EDE383FD10D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4905958-D080-432A-AA0E-EDE383FD10D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4905958-D080-432A-AA0E-EDE383FD10D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8535DA-5A21-44D3-B024-10CE72726E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8535DA-5A21-44D3-B024-10CE72726E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8535DA-5A21-44D3-B024-10CE72726E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8535DA-5A21-44D3-B024-10CE72726E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0CDF87-289D-4F7B-962C-E528F3092A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0CDF87-289D-4F7B-962C-E528F3092A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0CDF87-289D-4F7B-962C-E528F3092A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0CDF87-289D-4F7B-962C-E528F3092A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27DB008F-F908-4D9B-8BFB-9B20CC4EC398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27DB008F-F908-4D9B-8BFB-9B20CC4EC398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27DB008F-F908-4D9B-8BFB-9B20CC4EC398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27DB008F-F908-4D9B-8BFB-9B20CC4EC398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DAEAEC9-E56F-42D1-8235-065A0434541D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DAEAEC9-E56F-42D1-8235-065A0434541D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DAEAEC9-E56F-42D1-8235-065A0434541D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DAEAEC9-E56F-42D1-8235-065A0434541D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A274396E-45A0-4DF3-A533-4B4A728A703D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A274396E-45A0-4DF3-A533-4B4A728A703D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A274396E-45A0-4DF3-A533-4B4A728A703D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A274396E-45A0-4DF3-A533-4B4A728A703D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

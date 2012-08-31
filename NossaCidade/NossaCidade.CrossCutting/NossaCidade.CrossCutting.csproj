@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>239f498a-4d00-4703-8c39-b0d817d715d1</ProjectGuid>
+    <ProjectGuid>{190B74EB-DF86-4709-BB9C-00FBEC4DECBA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NossaCidade.CrossCutting</RootNamespace>
